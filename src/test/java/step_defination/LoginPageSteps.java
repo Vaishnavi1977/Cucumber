@@ -20,7 +20,7 @@ public class LoginPageSteps {
 		driver = new ChromeDriver();
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		lp = new LoginPage(driver);
-
+		System.out.println("Hello");
 	}
 
 	@When("User enter Username as {string} and Password as {string}")
